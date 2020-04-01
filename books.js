@@ -29,6 +29,11 @@ let images = [
         link: 'books/os/Operating System Concepts.pdf',
         img: 'images/os/OSconcepts.jpg'
     },
+    {
+        name: 'Introduction to Data Structures',
+        link: 'books/os/CLRIntroduction_to_Algorithms__Third_Edition.pdf',
+        img: 'images/ds/ds.jpg'
+    },
 ];
 const tbnames = document.getElementById('maths');
 ptag = document.getElementById('mathBooks');
