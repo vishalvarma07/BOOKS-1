@@ -47,10 +47,7 @@ function find(){
         div.appendChild(book);
     }
     if(x.length === 0) {
-        tbnames.innerHTML = "MATHS";
         div.innerHTML = '';
-    } else {
-        tbnames.innerHTML = 'Results:';
     }
 }
 (() => {
