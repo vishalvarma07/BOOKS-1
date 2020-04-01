@@ -22,7 +22,7 @@ let images = [
     {
         name: 'Abraham Silberschatz Operating System Concepts',
         link: 'books/os/Abraham-Silberschatz-Operating-System-Concepts---9th2012.12.pdf',
-        img:'images/os/AbrahamOS.jpg'
+        img: 'images/os/AbrahamOS.jpg'
     },
 ];
 const tbnames = document.getElementById('maths');
