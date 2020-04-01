@@ -30,12 +30,6 @@ ptag = document.getElementById('mathBooks');
 div = document.getElementById('searchpanel')
 function find(){
     let x = document.getElementById('searchbar').value.toUpperCase();
-    if(x.length === 0) {
-        tbnames.innerHTML = "MATHS";
-        div.innerHTML = '';
-    } else {
-        tbnames.innerHTML = 'Results:';
-    }
     div.innerHTML = '';
     let newImages = [];
     for(let v of images){
@@ -51,6 +45,12 @@ function find(){
         img.setAttribute('src', v.img);
         book.appendChild(img);
         div.appendChild(book);
+    }
+    if(x.length === 0) {
+        tbnames.innerHTML = "MATHS";
+        div.innerHTML = '';
+    } else {
+        tbnames.innerHTML = 'Results:';
     }
 }
 (() => {
