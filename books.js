@@ -60,10 +60,24 @@ function find(){
         img.setAttribute('class', 'img-container');
         img.setAttribute('src', v.img);
         book.appendChild(img);
-        if(bookContent.maths.indexOf(v) === -1) {
-            osDiv.appendChild(book);
-        } else {
-            mathsDiv.appendChild(book);
+        switch(getBookType(v)) {
+            case 'maths': {
+                mathsDiv.appendChild(book);
+                break;
+            }
+            case 'os': {
+                osDiv.appendChild(book);
+                break;
+            }
+        }
+    }
+}
+function getBookType(item) {
+    for(let v of Object.keys(bookContent)) {
+        for(let k of Object.keys(bookContent[v])) {
+            if(bookContent[v][k] === item) {
+                return v;
+            }
         }
     }
 }
