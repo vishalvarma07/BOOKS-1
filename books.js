@@ -24,6 +24,11 @@ let images = [
         link: 'books/os/Abraham-Silberschatz-Operating-System-Concepts---9th2012.12.pdf',
         img: 'images/os/AbrahamOS.jpg'
     },
+    {
+        name: 'Operating System Concepts',
+        link: 'books/os/Operating System Concepts.pdf',
+        img: 'images/os/OSconcepts.jpg'
+    },
 ];
 const tbnames = document.getElementById('maths');
 ptag = document.getElementById('mathBooks');
