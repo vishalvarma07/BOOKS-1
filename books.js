@@ -30,7 +30,7 @@ let images = [
         img: 'images/os/OSconcepts.jpg'
     },
     {
-        name: 'Introduction to Data Structures',
+        name: 'Introduction to Data Structures and Algorithms',
         link: 'books/os/CLRIntroduction_to_Algorithms__Third_Edition.pdf',
         img: 'images/ds/ds.jpg'
     },
