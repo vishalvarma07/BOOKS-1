@@ -5,7 +5,7 @@ let images = [
         link: 'books/Maths/applied-statistics-and-probability-for-engineers.pdf'
     },
     {
-        name: 'fundamentals of applied probability and randomprocess',
+        name: 'fundamentals of applied probability and random process',
         link: 'books/Maths/epdf.pub_fundamentals-of-applied-probability-and-randopro.pdf',
         img: 'images/Maths/fundprob.jpg'
     }, 
